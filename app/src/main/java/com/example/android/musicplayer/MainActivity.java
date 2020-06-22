@@ -6,12 +6,13 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button playButton;
-    private Button stopButton;
+    private ImageButton playButton;
+    private ImageButton stopButton;
     private MediaPlayer mediaPlayer;
 
     @Override
